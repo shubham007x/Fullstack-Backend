@@ -6,7 +6,7 @@ require("dotenv").config();
 
 const { userModel } = require("./models/User.model");
 const { connection } = require("./Connection/connection");
-const { authenticate } = require("./middleWares/authenticate");
+const { authenticate } = require("./middlewares/authenticate");
 const { EmpRoutes } = require("./routes/emp.route");
 
 const app = express();
